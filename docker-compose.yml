@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: laravel-app
+    container_name: dcet
+    restart: unless-stopped
+    working_dir: /var/www
+    volumes:
+      - .:/var/www
+      - ./vendor:/var/www/vendor
+      - ./storage:/var/www/storage
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mysql
+    environment:
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_DATABASE=dcet
+      - DB_USERNAME=dcet
+      - DB_PASSWORD=dcet
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dcet
+      MYSQL_USER: dcet
+      MYSQL_PASSWORD: dcet
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
