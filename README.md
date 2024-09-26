@@ -1,66 +1,113 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Auditório UNEB 360 - Seu espaço, sua visão, sua voz.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 👨🏻‍💻 Sobre o projeto
+<p> Desenvolvimento de software na plataforma WEB para de marcação de reserva do Auditório do DCET-1 da UNEB.<p> 
 
-## About Laravel
+Este sistema web oferece aos alunos da disciplina de Laboratório de Desenvolvimento WEB a oportunidade de aprofundar seus conhecimentos sobre o processo de desenvolvimento de software, com ênfase na criação de aplicações web. O curso abrange tanto o front-end quanto o back-end, além de abordar aspectos essenciais como autenticação, validação de dados e integração com banco de dados.
+<h2>🏆 DevTeam: </h2>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<br>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<table>
+    
+<td align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxp7SkVO6ROHK8ZHQQNeAO2c9gUtFWCWDaG6EIqUT70g&s" 
+       alt="Daniel Galdino" style="width: 70%; border-radius: 50%;" />
+  <br />
+  <sub><b>Guilherme França </b></sub>
+  <br />
+  <a href="" alt="Linkedin">
+    <img src="https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF" 
+         style="width: 90px;" alt="Linkedin Profile"/>
+  </a>
+</td>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<td align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxp7SkVO6ROHK8ZHQQNeAO2c9gUtFWCWDaG6EIqUT70g&s" 
+       alt="Daniel Galdino" style="width: 70%; border-radius: 50%;" />
+  <br />
+  <sub><b> Isabel </b></sub>
+  <br />
+  <a href="" alt="Linkedin">
+    <img src="https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF" 
+         style="width: 90px;" alt="Linkedin Profile"/>
+  </a>
+</td>
 
-## Learning Laravel
+<td align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxp7SkVO6ROHK8ZHQQNeAO2c9gUtFWCWDaG6EIqUT70g&s" 
+       alt="Daniel Galdino" style="width: 70%; border-radius: 50%;" />
+  <br />
+  <sub><b> Kyara Cardozo </b></sub>
+  <br />
+  <a href="" alt="Linkedin">
+    <img src="https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF" 
+         style="width: 90px;" alt="Linkedin Profile"/>
+  </a>
+</td>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<td align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxp7SkVO6ROHK8ZHQQNeAO2c9gUtFWCWDaG6EIqUT70g&s" 
+       alt="Daniel Galdino" style="width: 70%; border-radius: 50%;" />
+  <br />
+  <sub><b> Rafael Argolo </b></sub>
+  <br />
+  <a href="" alt="Linkedin">
+    <img src="https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF" 
+         style="width: 90px;" alt="Linkedin Profile"/>
+  </a>
+</td>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+  </table>
+   
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
+## Funcionalidades
+- Cadastro de Usuários.
+- Gerenciamento do Auditório.
+- Sistema de Reserva.
+- Cancelamento de Reservas.
+- Dashboard Administrativo.
+- Notificações e Penalidades.
+- Histórico de Reservas.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Tecnologias Utilizadas
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<div style="display: flex; align-items: center;">
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" height="40" style="margin-right: 10px;">
+  <span><b>Banco de Dados:</b> MySQL </span>
+</div>
 
-## Code of Conduct
+<div style="display: flex; align-items: center;">
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40" style="margin-right: 10px;">
+  <span><b>Controle de Versão:</b> Git </span>
+</div>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<div style="display: flex; align-items: center;">
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="40" height="40" style="margin-right: 10px;">
+  <span><b>Controle de Versão:</b>  GitHub </span>
+</div>
 
-## Security Vulnerabilities
+<div style="display: flex; align-items: center;">
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg" width="40" height="40" style="margin-right: 10px;">
+   </a>
+  <span><b>Gerenciamento de Projeto:</b> <a href="https://trello.com/b/IGbolAcu/reserva-de-auditorios" target="_blank" rel="noopener noreferrer">Trello</a></span>
+</div>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+## Instalação
+### TBD
+
+## Quer contibuir?
+1. Se não for um colaborador direto, faça um fork do repositório.
+2. Crie uma nova branch: git checkout -b feature/nome-da-sua-feature
+3. Faça commit das suas alterações: git commit -am 'Adicionar alguma feature'
+4. Faça push para a branch: git push origin feature/nome-da-sua-feature
+5. Envie um pull request.
