@@ -65,12 +65,12 @@ Este sistema web oferece aos alunos da disciplina de Laboratório de Desenvolvim
 
 
 ## Funcionalidades
-- Cadastro de Usuários.
-- Gerenciamento do Auditório.
-- Sistema de Reserva.
-- Cancelamento de Reservas.
-- Dashboard Administrativo.
-- Notificações e Penalidades.
+- Cadastro de Usuários;
+- Gerenciamento do Auditório;
+- Sistema de Reserva;
+- Cancelamento de Reservas;
+- Dashboard Administrativo;
+- Notificações e Penalidades;
 - Histórico de Reservas.
 
 ## Tecnologias Utilizadas
@@ -97,7 +97,9 @@ Este sistema web oferece aos alunos da disciplina de Laboratório de Desenvolvim
   <span><b>Gerenciamento de Projeto:</b> <a href="https://trello.com/b/IGbolAcu/reserva-de-auditorios" target="_blank" rel="noopener noreferrer">Trello</a></span>
 </div>
 
-
+<div style="display: flex; align-items: center;">
+  <span><b>Documentação:</b>  GitHub </span>
+</div>
 
 
 
