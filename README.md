@@ -26,7 +26,7 @@ Este sistema web oferece aos alunos da disciplina de Laboratório de Desenvolvim
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxp7SkVO6ROHK8ZHQQNeAO2c9gUtFWCWDaG6EIqUT70g&s" 
        alt="Daniel Galdino" style="width: 70%; border-radius: 50%;" />
   <br />
-  <sub><b> Isabel </b></sub>
+  <sub><b> Aurelicio </b></sub>
   <br />
   <a href="" alt="Linkedin">
     <img src="https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF" 
